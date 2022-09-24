@@ -1,0 +1,16 @@
+.btns {
+
+    display: flex;
+    padding: 8px;
+    gap: 30px;
+    color: white;
+
+}
+
+.btns > a:hover {
+
+    color: yellow;
+    border-color: yellow;
+
+
+}

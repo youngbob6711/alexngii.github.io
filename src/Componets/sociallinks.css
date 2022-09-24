@@ -1,0 +1,11 @@
+.links {
+
+    display: flex;
+    gap: 1;
+    position: absolute;
+    flex-direction:row;
+
+
+
+
+}
