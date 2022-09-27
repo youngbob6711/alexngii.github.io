@@ -7,7 +7,7 @@ import Sociallinks from './sociallinks'
 
 function Header() {
   return (
-    <header className='section1'>
+    <section id='header' className='section1'>
       <div className='section2'>
 
         <h1 className='text1'>Hello There</h1>
@@ -33,7 +33,7 @@ function Header() {
       
 
 
-    </header>
+    </section>
   )
 }
 

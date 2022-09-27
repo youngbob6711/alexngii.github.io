@@ -19,16 +19,16 @@
 
 .alexxo {
     width: 23rem;
-    top: 4rem;
+    top: -3rem;
     position: absolute;
     margin-right: 80px;
     border-radius: 14rem 14rem 14rem 14rem;
     background: linear-gradient (var(--color-primary), transparent);
-    right: calc(18% - 10rem);
-    padding: -2rem -3rem ;
+    right: calc(19% - 2rem);
+    padding: 5rem 2rem;
 }
 
 .alexxo > img {
 
-    border-radius: 10rem 10rem;
+    border-radius: 4rem 4rem;
 }

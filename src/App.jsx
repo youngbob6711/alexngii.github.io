@@ -4,7 +4,7 @@ import About from './Componets/About'
 import Footer from './Componets/Footer'
 import Projects from './Componets/Projects'
 import Contact from './Componets/Contact'
-
+import Nav from './Componets/Nav'
 
 
 function App() {
@@ -13,6 +13,8 @@ function App() {
   
     
     <Header />
+
+    <Nav />
 
     <About />
 

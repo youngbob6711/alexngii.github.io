@@ -1,11 +1,17 @@
 .links {
 
+    margin-top: 30px;
+    margin-left: 90px;
     display: flex;
-    gap: 1;
+    gap: 2rem;
     position: absolute;
-    flex-direction:row;
 
+}
 
+.links > a {
+    color: white
+}
 
-
+.links > a:hover {
+    color: yellow;
 }

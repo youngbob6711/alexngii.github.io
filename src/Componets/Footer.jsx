@@ -1,14 +1,18 @@
 import React from 'react'
-import links from './sociallinks'
+
+
+
+
+
 function Footer() {
   return (
-    <div>
+    <section id='footer'>
 
-      <links />
+      
+FOOTER
 
 
-
-    </div>
+    </section>
   )
 }
 
