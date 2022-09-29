@@ -4,7 +4,8 @@
     margin: 0;
     box-sizing: border-box;
     outline: 0;
-    background: #040714;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 33%, rgba(4,7,20,1) 41%, rgba(0,0,0,1) 46%, rgba(0,212,255,1) 100%);
     color: white;
     padding: 0;
     text-decoration: none;
