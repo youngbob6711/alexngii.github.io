@@ -1,25 +1,116 @@
-h1 {
-    width: 50%;
+.chattitle {
+    
+    color: yellow;
+    margin-left: 680px;
+    margin-bottom: 8rem;
+    font-size: 2rem;
+}
+
+.arrow {
+    color: yellow;
+}
+
+.chatbox {
+    margin-left: 320px;
+    padding: 3rem 2rem;    
+}
+
+.form {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    margin-left: 66px;
+    margin-right: 25rem;
+}
+
+input, textarea {
+    border: 0.2px solid yellow;
+    border-radius: 0.6rem;
+    resize: none;
+    padding: 2rem 1.3rem;
+    background: transparent;
+    color: white;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.submitbtn {
+    background: transparent;
+    border-radius: 0.6rem;
+    border: 1px solid yellow;
+    padding: 0.7rem;
+    margin-right: 30.3rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: white;
 
 }
 
-.chat {
-    margin-left: 280px;
-    gap: 10%;
-    display: grid;
-    grid-template-columns: 38% 30%;
-    align-items: center;
+.submitbtn:hover {
+    background: yellow;
+    border-radius: 0.6rem;
+    border: 1px solid yellow;
+    padding: 0.9rem;
+    margin-right: 30rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: bold;
+
 }
+
 
 .emailbtn {
     background: none;
-    border-radius: 15px;
-    border: 1px solid red;
-    padding: 1rem 1.4rem;
-    transition: yellow;
+    border-radius: 11px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 22rem;
+    margin-bottom: 4rem;
+    margin-right: 63rem;
+    display: flex;
+    gap: 3rem;
+    border: 2.3px solid red;
+    padding: 0.2rem 0.4rem;
+}
+
+.emailbtn:hover {
+
+    background: transparent;
+    border: 1px solid rgb(5, 9, 29);
 }
 
 .icons {
-align-items: center;
-color: black;
+    font-size: 1.5rem;
+    background: transparent;
+    display: flex;
+    padding: 0.1rem;
+
+}
+
+.icon {
+    font-size: 1.6rem;
+    background: transparent;
+}
+
+
+
+
+/*MEDIUM DEVICES*/
+@media screen and (max-width: 1024px) {
+    .chatbox {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+   
+    
+}
+
+/*SMALL DEVICES*/
+@media screen and (max-width: 600px) {
+    .chatbox {
+        width: var(--container-width-sm);
+    }
+   
+    
 }
