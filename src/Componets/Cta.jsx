@@ -8,7 +8,7 @@ function Cta() {
     <div className='btns'>
 
         <a href={CV} download className='btn'> View My CV</a>
-        <a href="#Contact" className='btn'>Talk to me </a>
+        <a href="#contact" className='btn'>Talk to me </a>
         
         </div>
   )

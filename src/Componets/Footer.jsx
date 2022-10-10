@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import './Footer.css'
 import { MdOutlineEmail } from 'react-icons/md'
 import { GrTwitter } from 'react-icons/gr'
 import { SiLinkedin } from 'react-icons/si'
@@ -34,6 +35,13 @@ function Footer() {
           </a>
           </article>
       </div>
+
+      <footer className='footernote'>
+        
+        <p>All rights reserved </p>
+        <p> @2022 </p>
+
+      </footer>
 
 
     </section>

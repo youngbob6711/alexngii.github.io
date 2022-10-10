@@ -2,14 +2,23 @@ import React from 'react'
 import './Contact.css'
 import { BiChevronsDown } from 'react-icons/bi'
 import { useRef } from 'react'
-import emailjs from 'emailjs'
+import emailjs from 'emailjs-com'
 
 
 
 
-function Contact() {
+const Contact = () => {
 
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_alkdq59', 'template_rqkol1e', form.current, 'FiN25qlfzBMuwS4DB')
 
+      e.target.reset()
+      
+    };
 
   return (
     <section id='contact'>
@@ -18,7 +27,8 @@ function Contact() {
 
 
       <div className='chatbox'>
-        <form action="" className='form'>
+
+        <form ref={form} onSubmit={sendEmail} className='form'>
           <input type="text" name='name' placeholder='Your Full Name' required/>
           <input type="number" name='number' placeholder='Your Phone Number' required />
           <input type="email" name='email' placeholder='Your Email' required />
@@ -26,8 +36,7 @@ function Contact() {
           <button type='submit' className='submitbtn'>Send Message</button>
           </form>
       
-      
-      </div>
+      </div>  
       </section>
   )
 }
